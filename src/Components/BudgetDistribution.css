@@ -1,0 +1,20 @@
+.input-container,
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    width: 90%;
+}
+
+@media screen and (min-width: 550px) {
+    .input-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .input-control {
+        width: 30%;
+    }
+}
